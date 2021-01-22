@@ -1,7 +1,7 @@
 # Priority-Task-Selection-Using-Evolutionary-Programming
 This project was made with Flask.
 Calculate the tasks that we can prioritize to do by determining them using the Evolutionary Programming
-Steps to run this program :
+<h3>Steps to run this program :</h3>
 1. Run Flask using CMD ("run Flask")
 2. Open Given URL (Usually "127.0.0.1:5000")
 3. There are 5 inputs :
@@ -17,3 +17,6 @@ Steps to run this program :
   - Third input : 4, 3, 3, 2, 2, 1, 1, 1, 3, 2
   - Fourth input : 1, 2, 3, 2, 2, 1, 1, 1, 3, 2
   - Fifth input : 8
+
+<h3>Screenshot :</h3>
+<img src="https://github.com/LinggarM/Priority-Task-Selection-Using-Evolutionary-Programming/blob/master/images/screenshot.png">
