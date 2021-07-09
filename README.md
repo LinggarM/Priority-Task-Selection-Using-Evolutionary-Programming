@@ -6,7 +6,7 @@ A program to calculate the tasks that we can prioritize to do by determining the
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#description">About The Project</a><li>
+    <li><a href="#description">Description</a><li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#dependencies">Dependencies</a></li>
