@@ -3,11 +3,23 @@ A web app that utilizes **Evolutionary Programming** to determine and prioritize
 
 ## About the Project
 
-Priority Task Selection is a program to determine and prioritize tasks from given task options and the total time you have.
+Priority Task Selection is a program to **determine and prioritize tasks** from given **task options** and **the total time you have**.
 
 Sometimes we have a lot of tasks to do but our time is very limited, so we cannot do all the tasks and we have to pick some of the most important tasks from all of the tasks. This program helps you determine and choose which tasks are worth more to do than the others.
 
-This program uses Evolutionary Programming algorithms to prioritize the most important tasks from a given list of tasks based on their priority scales.
+This program uses **Evolutionary Programming** algorithms to prioritize the most important tasks from a given list of tasks based on their priority scales.
+
+* Input:
+  * The number of tasks to do
+  * All of the task names
+  * All of the priority scales for each task
+  * All of the task completion times for each task (hours)
+  * Total time you have (hours)
+
+* Output:
+  * List of tasks we can do
+  * Total priority scales for all tasks we can do
+  * Total time required to do the tasks
 
 ## Screenshots
   Dashboard
