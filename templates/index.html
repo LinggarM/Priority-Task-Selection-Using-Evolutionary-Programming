@@ -41,41 +41,47 @@
                 <div class="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Priority Task Selection Using Evolutionary Programming</h2>
+                    <br/>
+                    <br/>
+                    <br/>
                     <form action="/" method="POST">
                         <div class="input-group">
-                            <input class="input--style-2" type="textarea" placeholder="Masukkan jumlah tugas yang akan dikerjakan" name="jumlah_tugas">
+                            <label for="jumlah_tugas">Enter the number of tasks</label>
+                            <input class="input--style-2" type="number" placeholder="E.g., 10" name="jumlah_tugas" id="jumlah_tugas">
                         </div>
                         <div class="input-group">
-                            <input class="input--style-2" type="textarea" placeholder="Masukkan tugas - tugas yang harus dikerjakan (Pisahkan dengan koma)" name="nama_tugas">
+                            <label for="nama_tugas">Enter all of the task names (Separate them with commas)</label>
+                            <input class="input--style-2" type="textarea" placeholder="E.g., Task1, Task2, Task3" name="nama_tugas" id="nama_tugas">
                         </div>
                         <div class="input-group">
-                            <input class="input--style-2" type="textarea" placeholder="Masukkan nilai skala prioritas (Pisahkan dengan koma)" name="skala_prioritas">
+                            <label for="skala_prioritas">Enter priority scale for all tasks (Range: 1-5, 1 for the lowest prioritize and 5 for the highest prioritize, Separate with commas)</label>
+                            <input class="input--style-2" type="textarea" placeholder="E.g., 5, 3, 1" name="skala_prioritas" id="skala_prioritas">
                         </div>
                         <div class="input-group">
-                            <input class="input--style-2" type="textarea" placeholder="Masukkan waktu pengerjaan tugas (Pisahkan dengan koma)" name="waktu_pengerjaan">
+                            <label for="waktu_pengerjaan">Enter task completion time for all tasks (In hours, Separate them with commas)</label>
+                            <input class="input--style-2" type="textarea" placeholder="E.g., 1, 2, 3" name="waktu_pengerjaan" id="waktu_pengerjaan">
                         </div>
                         <div class="input-group">
-                            <input class="input--style-2" type="number" placeholder="Masukkan waktu yang kamu punya (Satuan jam)" name="waktu">
+                            <label for="waktu">Enter the time you have (In hours)</label>
+                            <input class="input--style-2" type="number" placeholder="E.g., 8" name="waktu" id="waktu">
                         </div>
-                        <div class="p-t-30">
-                            <button class="btn btn--radius btn--green" type="submit">Kalkulasi</button>
+                        <div>
+                            <button class="btn btn--radius btn--green" type="submit">Calculate</button>
                         </div>
                     </form>
-		<br/>
-		<br/>
-		<p>Tugas yang harus dikerjakan : </p>
-		<h4><b>{{ data[0] }}</b></h4>
-		<br/>
-		<p>Total nilai prioritas : </p>
-		<h4><b>{{ data[1] }}</b></h4>
-		<br/>
-		<p>Waktu yang diperlukan : </p>
-		<h4><b>{{ data[2] }}</b></h4>
+            		<br/>
+            		<br/>
+            		<p>Tasks to be done : </p>
+            		<h4><b>{{ data[0] }}</b></h4>
+            		<br/>
+            		<p>Total priority values : </p>
+            		<h4><b>{{ data[1] }}</b></h4>
+            		<br/>
+            		<p>Tasks to be done : </p>
+            		<h4><b>{{ data[2] }}</b></h4>
                 </div>
             </div>
         </div>
-		<br/>
-		<center><div style = "color:#FFF">Icons made by <a style = "color:#57b846" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a style = "color:#57b846" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></center>
     </div>
 	
 

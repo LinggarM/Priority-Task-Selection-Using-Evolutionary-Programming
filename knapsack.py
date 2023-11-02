@@ -1,8 +1,6 @@
 import numpy as np
-import pandas as pd
 import random as rd
 from random import randint
-import matplotlib.pyplot as plt
 
 #menghitung nilai fitness suatu populasi
 def fitness_func(population, time, priority, threshold):
@@ -73,7 +71,7 @@ def selection(population, offsprings, solutions_per_pop, time, priority, thresho
 
 def kalkulasi(jumlah_tugas, nama_tugas, skala_prioritas, waktu_pengerjaan, waktu) :
 	#Initialization
-	item_number = np.arange(1,int(jumlah_tugas)+1)
+	item_number = np.arange(1, int(jumlah_tugas) + 1)
 
 	numpy_nama_tugas = np.array([i for i in nama_tugas.split(',')])
 

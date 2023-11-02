@@ -11,8 +11,20 @@ def index():
 		skala_prioritas = request.form['skala_prioritas']
 		waktu_pengerjaan = request.form['waktu_pengerjaan']
 		waktu = request.form['waktu']
-		return render_template('index.html', data=knapsack.kalkulasi(jumlah_tugas, nama_tugas, skala_prioritas, waktu_pengerjaan, waktu))
-	return render_template("index.html", data="")
+		return render_template(
+			'index.html', 
+			data= knapsack.kalkulasi(
+				jumlah_tugas, 
+				nama_tugas, 
+				skala_prioritas, 
+				waktu_pengerjaan, 
+				waktu
+			)
+		)
+	return render_template(
+		"index.html", 
+		data=""
+	)
 
 if __name__ == "__main__":
     app.run()
