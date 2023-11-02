@@ -1,0 +1,9 @@
+nama_tugas, skala_prioritas, waktu_pengerjaan, waktu
+
+Merapikan tempat tidur, Mencuci piring, Menyuci baju, Menyetrika baju,  Mengepel lantai, Menyiram tanaman, Memandikan kucing, Mengisi bak mandi, Mengurus anak, Merapikan barang-barang
+
+4, 3, 3, 2, 2, 1, 1, 1, 3, 2
+
+1, 2, 3, 2, 2, 1, 1, 1, 3, 2
+
+8

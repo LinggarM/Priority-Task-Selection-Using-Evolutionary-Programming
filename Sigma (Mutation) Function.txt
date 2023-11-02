@@ -1,0 +1,11 @@
+	for j in range (k):
+  if (offsprings[i][j] == 0):
+	if (sigma[j]>5):
+	  offsprings[i][j] = 1
+	else:
+	  offsprings[i][j] = 0
+  else:
+	if (sigma[j]>5) :
+	  offsprings[i][j] = 0
+	else:
+	  offsprings[i][j] = 1

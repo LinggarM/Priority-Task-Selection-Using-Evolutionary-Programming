@@ -1,0 +1,8 @@
+nama_tugas, skala_prioritas, waktu_pengerjaan, waktu
+nama_makanan, value_makanan, harga_makanan, uang
+
+1. Tugas Alevo, waktu 5 jam, prioritas 1.0
+2. Tugas TBI, waktu 4 jam, prioritas 1.0
+3. Menyuci baju, waktu 2 jam, prioritas 0.5
+4. Mengepel lantai, waktu 1 jam, prioritas 0.25
+Waktu yang dipunya : 10 jam
