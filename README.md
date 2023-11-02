@@ -3,7 +3,11 @@ A web app that utilizes **Evolutionary Programming** to determine and prioritize
 
 ## About the Project
 
-This is a program to calculate the tasks that we can prioritize to do by determining them using <b>Evolutionary Programming</b> algorithm. This program is a web-based platform, created with Flask using Python programming language.
+Priority Task Selection is a program to determine and prioritize tasks from given task options and the total time you have.
+
+Sometimes we have a lot of tasks to do but our time is very limited, so we cannot do all the tasks and we have to pick some of the most important tasks from all of the tasks. This program helps you determine and choose which tasks are worth more to do than the others.
+
+This program uses Evolutionary Programming algorithms to prioritize the most important tasks from a given list of tasks based on their priority scales.
 
 ## Screenshots
   Dashboard
